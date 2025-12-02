@@ -8,6 +8,15 @@
 
 A modern, intelligent chat platform that goes beyond text by understanding the emotional tone of conversations in real-time. This project uses a microservices architecture to detect emotions, moderate toxic content, and generate conversation summaries using advanced AI models.
 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_tdl1g7tdl1g7tdl1" src="https://github.com/user-attachments/assets/54622292-0924-4218-a64b-e9b8c891d729" />
+<img width="1895" height="1116" alt="Screenshot 2025-12-02 231152" src="https://github.com/user-attachments/assets/f2e3136a-9b65-41ea-b749-1bb8ab7605fa" />
+<img width="1901" height="1140" alt="Screenshot 2025-12-02 231232" src="https://github.com/user-attachments/assets/5267e0a9-ad0b-4493-b8ab-f67ae918cca8" />
+<img width="1902" height="1091" alt="Screenshot 2025-12-02 231308" src="https://github.com/user-attachments/assets/747b4aa7-20db-4f18-b651-000dcb6b69a7" />
+
+<img width="1902" height="1073" alt="Screenshot 2025-12-02 231322" src="https://github.com/user-attachments/assets/50d896eb-3417-4154-bd3a-e3d40cd04b8a" />
+
+
+
 ---
 
 ## 🚀 Features
