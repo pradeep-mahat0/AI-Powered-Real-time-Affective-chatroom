@@ -1,0 +1,22 @@
+.env
+
+# Ignore Environment Variables (Secrets)
+.env
+**/.env
+
+# Ignore Python Cache
+__pycache__/
+*.py[cod]
+
+# Ignore Virtual Environments
+chat_env/
+venv/
+env/
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db

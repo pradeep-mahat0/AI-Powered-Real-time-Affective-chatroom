@@ -1,0 +1,52 @@
+/* General Body and Font Styles */
+body { 
+    font-family: 'Poppins', sans-serif; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for the messages area */
+#messages::-webkit-scrollbar { 
+    width: 8px; 
+}
+#messages::-webkit-scrollbar-track { 
+    background: #1e293b; 
+}
+#messages::-webkit-scrollbar-thumb {
+    background-color: #475569;
+    border-radius: 20px;
+    border: 3px solid #1e293b;
+}
+
+/* A simple fade-in animation for new messages */
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(10px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+.fade-in { 
+    animation: fadeIn 0.3s ease-out forwards; 
+}
+
+/* Dotted background pattern for the authentication screen */
+.auth-bg {
+    background-color: #0f172a;
+    background-image: radial-gradient(#475569 1px, transparent 1px),
+                      radial-gradient(#475569 1px, #0f172a 1px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+}
+/* Animation for the emoji update */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+}
+.pulse-animation {
+    animation: pulse 0.5s ease-out;
+}
